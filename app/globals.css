@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+@layer components {
+  .skill {
+    @apply absolute h-full left-0 bg-orange-100 rounded-4 before:absolute before:-top-[14px] before:right-0 before:border-8 before:border-transparent before:border-b-0 before:border-r-0 before:border-t-gray-300 after:absolute after:-top-[37px] after:font-semibold after:right-0 after:bg-gray-300 after:text-black-100 after:text-12 after:rounded-4 after:px-8 after:py-4;
+  }
+}
