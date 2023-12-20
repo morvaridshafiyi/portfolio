@@ -15,13 +15,8 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@layer components {
+  .skill {
+    @apply absolute h-full left-0 bg-orange-100 rounded-4 before:absolute before:-top-[14px] before:right-0 before:border-8 before:border-transparent before:border-b-0 before:border-r-0 before:border-t-gray-300 after:absolute after:-top-[37px] after:font-semibold after:right-0 after:bg-gray-300 after:text-black-100 after:text-12 after:rounded-4 after:px-8 after:py-4;
+  }
 }
