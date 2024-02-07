@@ -107,7 +107,7 @@ const Contact = () => {
                 Email
               </span>
               <span className="text-16 text-gray-100">
-                jemjem_pearl@yahoo.com
+              morvarid.shafiei96.gmail.com
               </span>
             </div>
             <div className="bg-orange-100 flex items-center justify-center w-[70px] h-[70px] rounded-full mr-24">
