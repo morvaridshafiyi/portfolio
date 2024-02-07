@@ -75,7 +75,7 @@ const About = () => {
                 <span className="text-gray-100 pb-16 tablet:pb-24">
                   ایمیل:{" "}
                   <span className="font-semibold text-gray-200 pr-2 tablet:pr-10">
-                    jemjem_pearl@yahoo.com
+                    morvarid.shafiei96.gmail.com
                   </span>
                 </span>
               </div>
