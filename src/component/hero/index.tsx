@@ -89,7 +89,7 @@ const Hero = () => {
         </p>
         <div className="flex mt-70">
           <div className="flex items-center">
-            <Link href={"mailto: jemjem_pearl@yahoo.com"} target="_blank">
+            <Link href={"mailto: morvarid.shafiei96.gmail.com"} target="_blank">
               <IcomoonReact
                 iconSet={iconSet}
                 color="#fff"
